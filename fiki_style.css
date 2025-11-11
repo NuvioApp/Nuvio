@@ -127,3 +127,31 @@ footer {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
+
+.button-container {
+    display: flex;            
+    justify-content: space-around; 
+    margin-top: 20px;
+}
+
+.gradient-button {
+
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: white; 
+    margin: 0 10px; 
+    background: linear-gradient(90deg, #007bff, #00bfff); 
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.gradient-button:hover {
+    opacity: 0.9; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
