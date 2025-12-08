@@ -218,3 +218,78 @@ footer {
   box-shadow: 0 3px 12px rgba(0,0,0,0.08);
 }
 
+.competition-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+.competition-table th {
+  background: #C7B8E7;
+  color: #fff;
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 2px solid #b3a2d4;
+}
+
+.competition-table td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.competition-table tr:nth-child(even) {
+  background: #faf7ff;
+}
+
+.competition-table tr:hover {
+  background: #f0eaff;
+}
+
+.competitors-grid {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.competitor-card {
+  width: 240px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.competitor-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+.competitor-logo {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.competitor-card h4 {
+  margin: 10px 0 5px;
+  font-size: 16px;
+}
+
+.competitor-card a {
+  color: #6d4fc7;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.competitor-card p {
+  font-size: 14px;
+  color: #555;
+}
+
