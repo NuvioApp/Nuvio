@@ -917,17 +917,173 @@ Mirii apreciază foarte mult să poată să fie în controlul propriului evenime
         </p>
 
 
-
-
-
-
       </div>
 
     </section>
 
     <section id="m7" class="milestone">
       <h2> Milestone 7</h2>
-      <p>Details for Milestone 7.</p>
+       <div class="fade-section">
+        <h3>Introducere MVP</h3>
+        <p>
+          În cadrul acestui milestone am dezvoltat un Minimum Viable Product (MVP) al platformei Nuvio.
+          MVP-ul reprezintă o versiune funcțională, dar simplificată, a produsului final, având ca scop
+          validarea ideii și a interesului utilizatorilor pentru o platformă de organizare a nunților.
+        </p>
+        <p>
+          Scopul acestui MVP nu este oferirea tuturor funcționalităților planificate, ci demonstrarea
+          valorii de bază a produsului și obținerea de feedback real din partea utilizatorilor.
+        </p>
+      </div>
+
+      <div class="fade-section">
+        <h3>Problema adresată de MVP-ul Nuvio</h3>
+        <p>
+          Organizarea unei nunți presupune mult timp pierdut căutând furnizori, comparând oferte și
+          gestionând informații din surse diferite. MVP-ul Nuvio adresează această problemă prin
+          centralizarea furnizorilor într-o singură platformă ușor de utilizat.
+        </p>
+      </div>
+
+      <div class="fade-section">
+        <h3>Funcționalități incluse în MVP</h3>
+        <p>
+          MVP-ul Nuvio include următoarele funcționalități:
+        </p>
+        <ul>
+          <li>Landing page de prezentare a platformei</li>
+          <li>Sistem de autentificare și înregistrare a utilizatorilor</li>
+          <li>Două tipuri de conturi: cont personal și cont furnizor</li>
+          <li>Secțiune de explorare a furnizorilor, împărțiți pe categorii. În cadrul MVP-ului am inclus următoarele tipuri de furnizor: restaurante, fotografi, DJ, florării, cofetării</li>
+          <li>Profil personal pentru utilizatori, cu informații de bază despre nuntă și despre furnizorii aleși</li>
+          <li>Profil dedicat pentru furnizori în care aceștia pot să-și prezinte serviciul oferit.</li>
+        </ul>
+      </div>
+
+      <div class="fade-section">
+        <h3>Descriere amplă a funcționalităților</h3>
+        <p>
+          <h4>1. Landing Page – Prima interacțiune cu utilizatorul</h4>
+          <p>
+            Aplicația se deschide cu un landing page de prezentare prin care utilizatorul poate afla rapid ce face aplicația
+            și ce beneficii oferă.
+          </p>
+          <p>
+            Pe landing page este prezent un buton principal, <strong>„Descoperă acum”</strong>,
+            care invită utilizatorul să exploreze mai departe platforma.
+          </p>
+
+          <div class="screenshot-container">
+            <img src="images/landingpage.png" alt="Landing Page Nuvio">
+            <p class="screenshot-caption">Landing Page – prima interacțiune cu utilizatorul</p>
+          </div>
+
+          <h4>2. Explorarea furnizorilor</h4>
+          <p>
+            După accesarea butonului „Descoperă acum”, utilizatorul este redirecționat către pagina de
+            explorare a furnizorilor. Aceasta reprezintă funcționalitatea centrală a MVP-ului.
+          </p>
+          <p>
+            Pentru această etapă am ales să includem doar cele mai importante categorii de furnizori
+            necesari pentru organizarea unei nunți:
+          </p>
+          <ul>
+            <li>Restaurante</li>
+            <li>Fotografi</li>
+            <li>DJ</li>
+            <li>Florării</li>
+            <li>Cofetării</li>
+          </ul>
+          <p>
+            Utilizatorul poate naviga prin aceste categorii, poate vizualiza furnizorii disponibili
+            și poate accesa detalii despre fiecare.
+          </p>
+
+          <div class="screenshot-container">
+            <img src="images/explorarefurnizori.png" alt="Explorare furnizori">
+            <p class="screenshot-caption"> Pagina de explorare a furnizorilor</p>
+          </div>
+
+          <p>
+            Funcționalitatea de adăugare a unui furnizor la favorite este disponibilă doar pentru utilizatorii
+            autentificați, pentru a încuraja crearea unui cont și a păstra datele relevante asociate fiecărui utilizator.
+          </p>
+
+          <h4>3. Autentificare și creare cont</h4>
+          <p>
+            Platforma oferă două opțiuni principale pentru gestionarea conturilor:
+            autentificare pentru utilizatorii existenți și creare de cont pentru utilizatorii noi.
+          </p>
+
+          <div class="screenshot-container">
+            <img src="images/autentificare_si_creare_cont.png" alt="Creare cont">
+            <p class="screenshot-caption"> Creare cont personal / furnizor</p>
+          </div>
+
+          <p>
+            În cadrul procesului de creare cont, utilizatorul poate alege între două tipuri de cont:
+          </p>
+          <ul>
+            <li><strong>Cont personal</strong> – destinat cuplurilor care își organizează nunta</li>
+            <li><strong>Cont furnizor</strong> – destinat furnizorilor de servicii pentru nunți</li>
+          </ul>
+
+          <p>
+            Pentru ambele tipuri de cont sunt solicitate informații de bază precum:
+            nume, număr de telefon, adresă de email și parolă. În cazul contului de furnizor,
+            este necesară și selectarea categoriei din care face parte acesta.
+          </p>
+
+
+          <h4>4. Contul personal al utilizatorului</h4>
+          <p>
+            După autentificare, utilizatorul are acces la propriul profil personal. Acesta include
+            secțiuni dedicate precum: furnizori favoriți, calendarul nunții, buget, invitații,
+            colaborări și cereri de colaborare.
+          </p>
+          <p>
+            Pentru MVP, aceste secțiuni sunt vizibile la nivel de interfață, însă funcționalitățile
+            avansate asociate acestora nu sunt încă implementate, urmând a fi dezvoltate în etapele viitoare.
+          </p>
+
+          <div class="screenshot-container">
+            <img src="images/cont_utilizator.png" alt="Cont utilizator">
+            <p class="screenshot-caption"> Profil utilizator</p>
+          </div>
+
+          <h4>5. Contul furnizorului</h4>
+          <p>
+            Contul de furnizor permite gestionarea informațiilor publice care vor fi afișate în cadrul
+            paginii de explorare. Furnizorii pot adăuga:
+          </p>
+          <ul>
+            <li>descrierea serviciilor oferite</li>
+            <li>orașul și adresa</li>
+            <li>website-ul (dacă există)</li>
+            <li>imagini de la evenimente anterioare</li>
+          </ul>
+
+          <p>
+            De asemenea, furnizorii vor putea, în versiunile viitoare ale aplicației, să gestioneze
+            cereri de colaborare și evenimentele din calendar. Aceste funcționalități nu sunt incluse
+            în MVP-ul actual.
+          </p>
+          <div class="screenshot-container">
+            <img src="images/cont_furnizor.png" alt="Cont furnizor">
+            <p class="screenshot-caption"> Profil furnizor</p>
+          </div>
+        </p>
+      </div>
+      
+
+      <div class="fade-section">
+        <h3>Concluzie</h3>
+        <p>
+          MVP-ul Nuvio demonstrează fezabilitatea ideii și interesul pentru o platformă de organizare a
+          nunții. Versiunea actuală oferă suficientă valoare pentru utilizatori și reprezintă o bază solidă
+          pentru dezvoltarea ulterioară a produsului.
+        </p>
+
     </section>
 
     <section id="m8" class="milestone">
