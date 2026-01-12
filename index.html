@@ -940,8 +940,14 @@ Mirii apreciază foarte mult să poată să fie în controlul propriului evenime
         <h3>Problema adresată de MVP-ul Nuvio</h3>
         <p>
           Organizarea unei nunți presupune mult timp pierdut căutând furnizori, comparând oferte și
-          gestionând informații din surse diferite. MVP-ul Nuvio adresează această problemă prin
-          centralizarea furnizorilor într-o singură platformă ușor de utilizat.
+          gestionând informații din surse diferite.  Pe lângă dificultatea identificării furnizorilor potriviți,
+          cuplurile se confruntă și cu probleme legate de organizarea bugetului, planificarea activităților
+          și gestionarea colaborărilor.
+        </p>
+        <p>
+          MVP-ul Nuvio adresează aceste probleme prin centralizarea furnizorilor și a procesului de organizare
+          a nunții într-o singură platformă ușor de utilizat, oferind instrumente dedicate pentru planificare,
+          colaborare și gestionarea informațiilor esențiale.
         </p>
       </div>
 
@@ -956,7 +962,21 @@ Mirii apreciază foarte mult să poată să fie în controlul propriului evenime
           <li>Două tipuri de conturi: cont personal și cont furnizor</li>
           <li>Secțiune de explorare a furnizorilor, împărțiți pe categorii. În cadrul MVP-ului am inclus următoarele tipuri de furnizor: restaurante, fotografi, DJ, florării, cofetării</li>
           <li>Profil personal pentru utilizatori, cu informații de bază despre nuntă și despre furnizorii aleși</li>
+          <li> Posibilitatea utilizatorilor de a vizualiza detalii despre furnizori,
+              de a adăuga furnizori la favorite și de a trimite cereri de colaborare</li>
+          <li>Vizualizarea și gestionarea cererilor de colaborare trimise de utilizatori,
+              precum și a colaborărilor active</li>
+          <li>Gestionarea bugetului nunții prin adăugarea de cheltuieli personalizate
+              sau cheltuieli sugerate cu valori editabile</li>
+          <li>Calendar al nunții pentru adăugarea și organizarea task-urilor. Acesta este disponibil atât pentru utilizatorii normali, cât și pentru furnizori.</li>
+          <li>Crearea invitațiilor de nuntă prin intermediul aplicației. Pentru acest MVP am creat un singur model standard de invitație.</li>
+          <li>Posibilitatea mirilor de a vizualiza furnizorizorii cu care lucrează.</li>
           <li>Profil dedicat pentru furnizori în care aceștia pot să-și prezinte serviciul oferit.</li>
+          <li>Posibilitatea de a vizualiza cererile de colaborare,  de a le accepta sau refuza și de a gestiona colaborările active.</li>
+          <li>Vizualizarea detaliilor colaborărilor active de către furnizori, incluzând numele utilizatorului, datele de contact,
+              data și locația evenimentului</li>
+          <li>Secțiune de contact prin care atât utilizatorii, cât și furnizorii
+            pot transmite mesaje echipei Nuvio în cazul unor întrebări sau neclarități</li>
         </ul>
       </div>
 
@@ -1042,8 +1062,8 @@ Mirii apreciază foarte mult să poată să fie în controlul propriului evenime
             colaborări și cereri de colaborare.
           </p>
           <p>
-            Pentru MVP, aceste secțiuni sunt vizibile la nivel de interfață, însă funcționalitățile
-            avansate asociate acestora nu sunt încă implementate, urmând a fi dezvoltate în etapele viitoare.
+              În cadrul MVP-ului, funcționalitățile principale ale contului personal sunt implementate și funcționale,
+              permițând utilizatorului să gestioneze activ procesul de organizare a nunții.
           </p>
 
           <div class="screenshot-container">
@@ -1064,13 +1084,103 @@ Mirii apreciază foarte mult să poată să fie în controlul propriului evenime
           </ul>
 
           <p>
-            De asemenea, furnizorii vor putea, în versiunile viitoare ale aplicației, să gestioneze
-            cereri de colaborare și evenimentele din calendar. Aceste funcționalități nu sunt incluse
-            în MVP-ul actual.
+            Furnizorii pot gestiona cererile de colaborare primite, le pot accepta sau refuza
+            și pot vizualiza colaborările active. De asemenea, aceștia dispun de un calendar
+            în care pot adăuga evenimentele și task-urile asociate acestora.
           </p>
+
+
           <div class="screenshot-container">
             <img src="images/cont_furnizor.png" alt="Cont furnizor">
             <p class="screenshot-caption"> Profil furnizor</p>
+          </div>
+
+          <h4>6. Furnizori favoriți</h4>
+          <p>
+            Utilizatorul poate adăuga furnizori la lista de favorite pentru a-i accesa rapid ulterior.
+            Furnizorii favoriți sunt organizați pe categorii, la fel ca pagina de explorează, iar utilizatorul are posibilitatea de a elimina
+            oricând un furnizor din această listă.
+          </p>
+
+          <div class="screenshot-container">
+            <img src="images/furnizori_favoriti.png" alt="Furnizori favoriți">
+            <p class="screenshot-caption"> Lista furnizorilor favoriți</p>
+          </div>
+
+          <h4>7. Calendar nuntă</h4>
+          <p>
+            Platforma include un calendar dedicat organizării nunții, în care utilizatorul poate adăuga task-uri
+            specifice. Acesta poate naviga între luni și poate vizualiza activitățile planificate pentru fiecare zi.
+          </p>
+
+          <div class="screenshot-container">
+            <img src="images/calendar.png" alt="Calendar nuntă">
+            <p class="screenshot-caption"> Calendarul nunții</p>
+          </div>
+
+          <h4>8. Gestionarea bugetului</h4>
+          <p>
+            Utilizatorul poate gestiona bugetul nunții prin adăugarea cheltuielilor.
+            Acesta poate introduce cheltuieli personalizate sau poate folosi sugestii de cheltuieli
+            cu sume standard, care pot fi editate în funcție de necesități. De asemenea cheltuielile pot fi eliminate din listă.
+            Prin intermediul acestei funcționalități utilizatorul poate să vadă cât cheltuie.
+          </p>
+
+          <div class="screenshot-container">
+            <img src="images/buget.png" alt="Buget nuntă">
+            <p class="screenshot-caption"> Gestionarea bugetului</p>
+          </div>
+
+          <h4>9. Crearea invitațiilor</h4>
+          <p>
+            Aplicația permite crearea invitațiilor de nuntă direct din platformă.
+            În cadrul MVP-ului este disponibil un singur model standard de invitație,
+            în care utilizatorul poate completa numele mirilor, numele naților, data, locația și un mesaj personalizat.
+          </p>
+          <p>
+            Pe viitor, vor fi adăugate mai multe template-uri de invitații și opțiuni avansate de personalizare.
+          </p>
+
+          <div class="screenshot-container">
+            <img src="images/invitatii.png" alt="Invitații">
+            <p class="screenshot-caption"> Model standard de invitație</p>
+          </div>
+
+          <h4>10. Cereri de colaborare și colaborări</h4>
+          <p>
+            Platforma permite gestionarea cererilor de colaborare dintre utilizatori și furnizori.
+            Utilizatorii pot trimite cereri de colaborare către furnizorii doriți direct din pagina
+            de detalii a acestora.
+          </p>
+          <p>
+            În cadrul profilului personal, utilizatorii pot vizualiza cererile trimise și
+            colaborările active, în funcție de statusul acestora.
+          </p>
+          <p>
+            Furnizorii au acces la o secțiune dedicată cererilor de colaborare, unde pot accepta
+            sau refuza solicitările primite. În cazul acceptării, colaborarea devine activă și este
+            vizibilă în contul ambelor părți.
+          </p>
+
+          <div class="screenshot-container">
+            <img src="images/cereri_colaborari.png" alt="Colaborari">
+            <p class="screenshot-caption">Cereri de colaborare - utilizator</p>
+          </div>
+
+
+          <h4>11. Secțiunea Contact</h4>
+          <p>
+            Aplicația include o secțiune de contact prin care atât utilizatorii, cât și furnizorii
+            pot lua legătura cu echipa Nuvio.
+          </p>
+          <p>
+            Prin intermediul acestui formular, utilizatorii pot transmite întrebări, feedback
+            sau pot solicita clarificări legate de funcționalitățile platformei.
+          </p>
+
+          <div class="screenshot-container">
+            <img src="images/contact.png" alt="Contact">
+            <p class="screenshot-caption"> Formular contact</p>
           </div>
         </p>
       </div>
